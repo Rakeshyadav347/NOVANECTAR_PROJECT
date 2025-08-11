@@ -7,15 +7,22 @@ import FeatCompany from "./components/Homepage/FeatCompany";
 import PopularCourses from "./components/Homepage/PopularCourses";
 import AboutCompany from "./components/Homepage/AboutCompany";
 import Blogs from "./components/Homepage/Blogs";
+import Testimonials from "./components/Homepage/Testimonials";
+import Faq from "./components/Homepage/Faq";
+import Footer from "./components/Homepage/Footer";
 function App() {
   return (
     <>
+      {/* <AllLog /> */}
       <Navbar />
       <HeroSection />
       <FeatCompany />
       <PopularCourses />
       <AboutCompany />
       <Blogs />
+      <Testimonials />
+      <Faq />
+      <Footer />
     </>
   );
 }

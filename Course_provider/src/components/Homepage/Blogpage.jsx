@@ -3,24 +3,23 @@ const BlogPage = () => {
     <div className="course-card">
       <div className="course-in-item">
         <span className="course-img">
-          <img className="sec-img" src="Section.png"></img>
+          <img
+            className="sec-img"
+            src="pexels-marcus-aurelius-4063792 1.png"
+          ></img>
         </span>
-        <span className="c-headin">Full Stack Web Development</span>
+        <span className="c-headin">
+          Introduction to JavaScript for the Beginner
+        </span>
         <span className="cp-text">
-          Become a proficient full-stack developer with this course covering
-          HTML, CSS, JavaScript, React.
+          Learn the fundamentals of JavaScript from scratch and start building
+          interactive web pages....
         </span>
-        <span className="les">
-          <span className="les-img">
-            <img src="Document.png"></img> 20 Lessons
+        <span className="bl-btn">
+          <span className="dat">
+            <img src="calendar_2_line 1.png"></img> 10 Apr, 2025
           </span>
-          <span className="les-rate">
-            {" "}
-            <img src="star.png"></img> 4.8
-          </span>
-        </span>
-        <span className="pr-btn">
-          ₹ 4999 <button className="get-enroll-btn">Enroll Now</button>{" "}
+          <button className="rm-btn">Read More </button>{" "}
         </span>
       </div>
     </div>

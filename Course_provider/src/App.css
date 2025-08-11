@@ -410,7 +410,6 @@ button {
   margin-top: 20px;
   angle: 0 deg;
   opacity: 1;
-
   gap: 24px;
   display: flex;
   flex-wrap: wrap;
@@ -485,7 +484,7 @@ button {
   font-size: 16px;
   border: none;
   cursor: pointer;
-  margin-left: 600px;
+  margin-left: 630px;
 }
 
 .Ab-comp {
@@ -538,7 +537,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   gap: 20px;
   width: 899px;
   height: 224px;
@@ -559,4 +557,201 @@ button {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
+}
+
+.bl-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.rm-btn {
+  border: none;
+  color: #296ad2;
+  font-size: 16px;
+  font-weight: 600;
+}
+.dat {
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.testim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 1500px;
+  height: 593px;
+  background: #ffffff;
+}
+
+.tsm-head {
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 48px;
+}
+
+.Review-frame {
+  display: flex;
+  gap: 24px;
+}
+
+.Review-card {
+  width: 400px;
+  height: 357px;
+  background: #ebf5ff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 152px;
+  height: 151px;
+  align-items: center;
+  margin-top: 25px;
+  justify-content: center;
+  margin-left: 120px;
+  font-weight: 600;
+}
+
+.review-text {
+  font-family: Manrope;
+  font-weight: 400px;
+  font-style: Regular;
+  font-size: 18px;
+  margin: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uiux {
+  color: #296ad2;
+  font-weight: 300;
+}
+
+.faq-frame {
+  width: 1370px;
+  height: 746px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.QA {
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  width: 1248px;
+  height: 90px;
+  gap: 10px;
+  padding: 20px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+}
+
+.qa-text {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer {
+  width: 100%;
+  height: 285px;
+  background: #002338;
+  display: flex;
+  margin-top: 570px;
+  justify-content: space-evenly;
+}
+
+.f-sec1 {
+  width: 401px;
+  height: 151px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+.f-sec2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 96px;
+  height: 205px;
+  color: #ffffff;
+  margin-top: 35px;
+}
+
+.f-sec3 {
+  width: 225px;
+  height: 150px;
+  gap: 20px;
+  angle: 0 deg;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 35px;
+}
+.f-sec4 {
+  width: 162px;
+  height: 105px;
+  gap: 32px;
+  angle: 0 deg;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-top: 35px;
+}
+.qlink {
+  display: flex;
+  flex-direction: column;
+  height: 148px;
+  justify-content: space-between;
+  width: 96px;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.addre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 60px;
+}
+.addre-cal {
+  display: flex;
+  align-items: center;
+}
+.f-des {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.f-head {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.im-sm {
+  margin-top: 30px;
 }

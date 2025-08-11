@@ -1,4 +1,4 @@
-import CoursePage from "./CoursePage";
+import BlogPage from "./Blogpage";
 
 const Blogs = () => {
   return (
@@ -12,13 +12,14 @@ const Blogs = () => {
         </span>
       </div>
       <div className="course-frame">
-        <CoursePage />
-        <CoursePage />
-        <CoursePage />
-        <CoursePage />
-        <CoursePage />
-        <CoursePage />
-        <button className="exp-all-btn">Explore All Courses </button>
+        <BlogPage />
+        <BlogPage />
+        <BlogPage />
+        <BlogPage />
+        <BlogPage />
+        <BlogPage />
+
+        <button className="exp-all-btn">Explore All Blogs </button>
       </div>
     </div>
   );
