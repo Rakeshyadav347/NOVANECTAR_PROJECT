@@ -18,37 +18,47 @@ import Course_Review from "./components/Course_page/Course-Review";
 import AboutUS from "./components/AboutUs";
 import ContactUspage from "./components/ContactUspage";
 import Wishlist from "./components/Wishlist";
-import AllBlog from "./components/Blog";
+import AllBlog from "./components/AllBlog";
 import Blogdetail from "./components/Blogdetail";
 import Shopcart from "./components/Shopcart";
 import BillingDetails from "./components/BillingDetails";
+import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <BillingDetails />
-      {/*
-      <Shopcart />
-      <Blogdetail />
-      <AllBlog />
-      <Wishlist />
-      <ContactUspage />
-      <AboutUS />
-      <Course_Review />
-      <Course_instructor />
-      <Course_Curriculum />
-      <Course_Overview />
-      <Course_Page />
-      <AllSignup />
-      <Navbar />
-      <HeroSection />
-      <FeatCompany />
-      <PopularCourses />
-      <AboutCompany />
-      <Blogs />
-      <Testimonials />
-      <Faq />
-      <Footer />
-      */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <HeroSection />
+              <FeatCompany />
+              <PopularCourses />
+              <AboutCompany />
+              <Blogs />
+              <Testimonials />
+              <Faq />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/login" element={<AllLog />} />
+        <Route path="/signup" element={<AllSignup />} />
+        <Route path="/coursepage" element={<Course_Page />} />
+        <Route path="/courseoverview" element={<Course_Overview />} />
+        <Route path="/coursecurriculum" element={<Course_Curriculum />} />
+        <Route path="/courseinstructor" element={<Course_instructor />} />
+        <Route path="/coursereview" element={<Course_Review />} />
+        <Route path="/aboutus" element={<AboutUS />} />
+        <Route path="/contactus" element={<ContactUspage />} />
+        <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/allblog" element={<AllBlog />} />
+        <Route path="/blogdetail" element={<Blogdetail />} />
+        <Route path="/shopcart" element={<Shopcart />} />
+        <Route path="/billingdetails" element={<BillingDetails />} />
+      </Routes>
     </>
   );
 }

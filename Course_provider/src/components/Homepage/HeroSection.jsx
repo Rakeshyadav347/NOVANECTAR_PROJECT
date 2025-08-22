@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
-    <div className="hero-section">
-      <div className="hero-mid">
+    <div className="hero-section ">
+      <div className="hero-mid  ">
         <div className="hero-sec1">
           <span className="welcome-text">WELCOME TO SSZONE Technology</span>
           <span className="hero-text">
